@@ -10,6 +10,14 @@ on:
     
 
 
+permissions:
+
+  contents: read
+  
+  packages: write
+  
+
+
 jobs:
 
   build-and-push:
@@ -62,6 +70,8 @@ jobs:
             
             ghcr.io/${{ github.repository }}:latest
             
+
+
 
 
 
