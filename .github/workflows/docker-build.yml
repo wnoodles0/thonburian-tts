@@ -50,9 +50,9 @@ jobs:
         
         with:
         
-          context: ./app
+          context: .
           
-          file: ./app/Dockerfile
+          file: ./Dockerfile
           
           push: true
           
